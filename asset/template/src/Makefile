@@ -18,8 +18,15 @@ help:
 
 
 build:
-	@sudo ./build.sh
+	@./build.sh
 .PHONY: build
+
+
+
+
+log-build:
+	@./log-build.sh
+.PHONY: log-build
 
 
 
@@ -34,3 +41,13 @@ build:
 ## ``` sh
 ## make build 2>&1 | tee log.txt
 ## ```
+
+
+
+
+clean:
+	@./clean.sh
+.PHONY: clean
+
+
+
