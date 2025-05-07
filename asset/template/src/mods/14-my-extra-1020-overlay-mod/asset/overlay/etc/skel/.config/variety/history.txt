@@ -1,0 +1,4 @@
+0
+/usr/share/backgrounds/default.jpg
+/usr/share/backgrounds/default-login.jpg
+/usr/share/backgrounds/default-grub.jpg

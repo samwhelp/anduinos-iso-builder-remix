@@ -1,0 +1,22 @@
+
+
+
+
+##
+## # Font
+##
+
+
+
+
+##
+## ## Package / font
+##
+
+fonts-dejavu
+
+fonts-noto-cjk
+
+fonts-liberation2
+
+#fonts-jetbrains-mono

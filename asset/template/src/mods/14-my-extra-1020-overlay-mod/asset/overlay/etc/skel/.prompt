@@ -1,0 +1,90 @@
+
+
+################################################################################
+##
+## ~/.prompt
+##
+################################################################################
+
+
+
+
+################################################################################
+### Head: Prompt
+##
+
+
+##
+## * https://github.com/Bash-it/bash-it
+## * https://github.com/Bash-it/bash-it/blob/master/themes/nwinkler/nwinkler.theme.bash
+## * https://github.com/Bash-it/bash-it/blob/master/lib/colors.bash
+##
+
+
+##
+## Load ~/.color
+##
+
+[ -f ~/.color ] && . ~/.color
+
+
+
+
+THE_PROMPT_END_CLEAN="${THE_COLOR_GREEN}→${THE_COLOR_RESET_COLOR}"
+THE_PROMPT_END_DIRTY="${THE_COLOR_RED}→${THE_COLOR_RESET_COLOR}"
+
+
+##
+## Util
+##
+
+_prompt_set_ () {
+
+
+	local exit_status=$?
+	local prompt_end
+
+
+	if [[ ${exit_status} -eq 0 ]]; then
+		prompt_end=${THE_PROMPT_END_CLEAN}
+	else
+		prompt_end=${THE_PROMPT_END_DIRTY}
+	fi
+
+
+	# Save history
+	history -a
+	history -c
+	history -r
+
+
+	## user@host [21:47:39] (~)
+	PS1="${THE_COLOR_GREEN}\u${THE_COLOR_RESET_COLOR}@${THE_COLOR_RED}\H${THE_COLOR_RESET_COLOR} [${THE_COLOR_BLUE}\t${THE_COLOR_RESET_COLOR}] (${THE_COLOR_GREEN}\w${THE_COLOR_RESET_COLOR}) ${THE_COLOR_RESET_COLOR}\n ${prompt_end} "
+	PS2='> '
+	PS4='+ '
+
+
+}
+
+
+
+
+##
+## Prompt Set
+##
+
+_prompt_set_
+
+
+
+
+##
+## Unload Function
+##
+
+unset -f _prompt_set_
+
+
+##
+### Tail: Prompt
+################################################################################
