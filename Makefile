@@ -14,6 +14,8 @@ help:
 	@echo
 	@echo '	$$ make combine-via-wget'
 	@echo
+	@echo '	$$ make tips-next-step'
+	@echo
 #	@echo '	$$ make build'
 #	@echo
 .PHONY: help
@@ -45,3 +47,11 @@ combine-via-git:
 combine-via-wget:
 	@./combine-via-wget.sh
 .PHONY: combine-via-git
+
+
+
+
+tips-next-step:
+	@echo '[Next Step]: cd ~/work/anduinos-iso-builder/iso-profile'
+.PHONY: tips-next-step
+

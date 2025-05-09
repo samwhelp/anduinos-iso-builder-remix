@@ -95,6 +95,7 @@ if [ -a ${REF_COMBINE_TARGET_DIR_PATH} ]; then
 	exit
 fi
 
+
 git clone -b "${REF_ISO_PROFILE_REPO_BRANCH_NAME}" "${REF_ISO_PROFILE_REPO_GIT_URL}" iso-profile
 
 

@@ -76,3 +76,60 @@ cd "${REF_WORK_DIR_PATH}"
 
 
 
+
+##
+## ## Model / Download Source Repository
+##
+
+
+if [ -a ${REF_COMBINE_TARGET_DIR_PATH} ]; then
+	echo
+	echo "[Dir Exist]: ${REF_COMBINE_TARGET_DIR_PATH}"
+	echo "[Please Remove First]: rm -rf ${REF_COMBINE_TARGET_DIR_PATH}"
+	echo
+	exit
+fi
+
+
+
+wget -c "${REF_ISO_PROFILE_REPO_ARCHIVE_URL}"
+
+##tar -C "${REF_WORK_DIR_PATH}" -xf "${REF_ISO_PROFILE_REPO_ARCHIVE_FILE_NAME}"
+
+tar -xf "${REF_ISO_PROFILE_REPO_ARCHIVE_FILE_NAME}"
+
+mv "${REF_ISO_PROFILE_REPO_ARCHIVE_EXTRACT_DIR_NAME}" "${REF_COMBINE_TARGET_DIR_PATH}"
+
+
+
+
+##
+## ## Model / Combine ISO Profile
+##
+
+echo cp -rfT "${REF_COMBINE_SOURCE_DIR_PATH}" "${REF_COMBINE_TARGET_DIR_PATH}"
+cp -rfT "${REF_COMBINE_SOURCE_DIR_PATH}" "${REF_COMBINE_TARGET_DIR_PATH}"
+#cp -rfTv "${REF_COMBINE_SOURCE_DIR_PATH}" "${REF_COMBINE_TARGET_DIR_PATH}"
+
+
+
+
+##
+## ## Model / Tips
+##
+
+echo
+echo "[OK]: Combine OK"
+#echo "[Next Step]: cd ${REF_COMBINE_TARGET_DIR_PATH}"
+echo "[Next Step]: cd ~/work/anduinos-iso-builder/iso-profile
+"
+echo
+
+
+
+
+##
+## ## Model / Back to Dir
+##
+
+cd ${OLDPWD}
