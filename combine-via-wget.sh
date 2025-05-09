@@ -62,3 +62,17 @@ REF_COMBINE_TARGET_DIR_PATH="${REF_WORK_DIR_PATH}/iso-profile"
 ##
 ## ## Prepare / Work Dir
 ##
+
+mkdir -p "${REF_WORK_DIR_PATH}"
+
+
+
+
+##
+## ## Model / Change to Work Dir
+##
+
+cd "${REF_WORK_DIR_PATH}"
+
+
+

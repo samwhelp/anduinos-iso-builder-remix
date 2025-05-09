@@ -74,7 +74,7 @@ mkdir -p "${REF_WORK_DIR_PATH}"
 
 
 ##
-## ## Model / Change Work Dir
+## ## Model / Change to Work Dir
 ##
 
 cd "${REF_WORK_DIR_PATH}"
@@ -126,7 +126,7 @@ echo
 
 
 ##
-## ## Model / Back Dir
+## ## Model / Back to Dir
 ##
 
 cd ${OLDPWD}
