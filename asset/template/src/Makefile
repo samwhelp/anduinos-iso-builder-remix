@@ -14,8 +14,6 @@ help:
 	@echo
 	@echo '	$$ make log-build'
 	@echo
-	@echo '	$$ make clean'
-	@echo
 .PHONY: help
 
 
@@ -48,10 +46,3 @@ log-build:
 ## make build 2>&1 | tee log.txt
 ## ```
 ##
-
-
-
-
-clean:
-	@./clean.sh
-.PHONY: clean
