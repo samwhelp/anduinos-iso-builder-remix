@@ -28,7 +28,7 @@
 
 * [Combine](#combine)
 * [Build All](#build-all)
-* [Build Fast](#build-fast)
+* [Build Default](#build-default)
 
 
 
