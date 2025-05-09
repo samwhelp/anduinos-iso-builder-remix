@@ -117,8 +117,8 @@ cp -rfT "${REF_COMBINE_SOURCE_DIR_PATH}" "${REF_COMBINE_TARGET_DIR_PATH}"
 
 echo
 echo "[OK]: Combine OK"
-#echo "[Next]: cd ${REF_COMBINE_TARGET_DIR_PATH}"
-echo "[Next]: cd ~/work/anduinos-iso-builder/iso-profile
+#echo "[Next Step]: cd ${REF_COMBINE_TARGET_DIR_PATH}"
+echo "[Next Step]: cd ~/work/anduinos-iso-builder/iso-profile
 "
 echo
 
