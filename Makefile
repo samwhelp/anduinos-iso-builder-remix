@@ -14,6 +14,8 @@ help:
 	@echo
 	@echo '	$$ make combine-via-wget'
 	@echo
+	@echo '	$$ make only-combine'
+	@echo
 	@echo '	$$ make tips-next-step'
 	@echo
 #	@echo '	$$ make build'
@@ -47,6 +49,13 @@ combine-via-git:
 combine-via-wget:
 	@./combine-via-wget.sh
 .PHONY: combine-via-git
+
+
+
+
+only-combine:
+	@./only-combine.sh
+.PHONY: only-combine
 
 
 
