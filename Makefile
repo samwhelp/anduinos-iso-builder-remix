@@ -10,23 +10,27 @@ help:
 	@echo '	$$ make'
 	@echo '	$$ make help'
 	@echo
-	@echo '	$$ make build'
+	@echo '	$$ make combine-via-git'
 	@echo
+	@echo '	$$ make combine-via-wget'
+	@echo
+#	@echo '	$$ make build'
+#	@echo
 .PHONY: help
 
 
 
 
-build:
-	@./build.sh
-.PHONY: build
+#build:
+#	@./build.sh
+#.PHONY: build
 
 
 
 
-clean:
-	sudo rm -rf /opt/tmp/anduinos
-.PHONY: clean
+#clean:
+#	sudo rm -rf /opt/tmp/anduinos
+#.PHONY: clean
 
 
 

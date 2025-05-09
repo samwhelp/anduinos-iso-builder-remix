@@ -12,6 +12,10 @@ help:
 	@echo
 	@echo '	$$ make build'
 	@echo
+	@echo '	$$ make log-build'
+	@echo
+	@echo '	$$ make clean'
+	@echo
 .PHONY: help
 
 
@@ -32,7 +36,9 @@ log-build:
 
 
 ##
-## https://stackoverflow.com/questions/6674327/redirect-all-output-to-file-in-bash
+## ## How to log
+##
+## * https://stackoverflow.com/questions/6674327/redirect-all-output-to-file-in-bash
 ##
 ## ``` sh
 ## make 2>&1 | tee file.txt
@@ -41,6 +47,7 @@ log-build:
 ## ``` sh
 ## make build 2>&1 | tee log.txt
 ## ```
+##
 
 
 
@@ -48,4 +55,3 @@ log-build:
 clean:
 	@./clean.sh
 .PHONY: clean
-
