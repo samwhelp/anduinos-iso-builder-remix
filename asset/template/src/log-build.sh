@@ -3,7 +3,27 @@
 
 
 
-./build.sh 2>&1 | tee log.txt
+set -e
+
+
+
+
+##
+## ## Main / Init
+##
+
+REF_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+REF_CMD_FILE_NAME="$(basename "$0")"
+
+
+
+
+##
+## ## Model / Start
+##
+
+## ./build.sh" 2>&1 | tee log.txt
+"${REF_BASE_DIR_PATH}/build.sh" 2>&1 | tee log.txt
 
 
 

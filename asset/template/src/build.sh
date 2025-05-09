@@ -22,4 +22,5 @@ REF_CMD_FILE_NAME="$(basename "$0")"
 ## ## Model / Start
 ##
 
+## sudo ./steps.sh
 sudo "${REF_BASE_DIR_PATH}/steps.sh"
