@@ -11,7 +11,7 @@ source $SCRIPT_DIR/shared.sh
 source $SCRIPT_DIR/args.sh
 
 function atcion_on_signal_interrupted() {
-    print_ok "Exit on signal interrupted..."
+    print_ok "Action on signal interrupted..."
     ## Do something before exit.
     #umount_on_exit
     sleep 2
@@ -19,14 +19,14 @@ function atcion_on_signal_interrupted() {
 }
 
 function atcion_on_signal_terminated() {
-    print_ok "Exit on signal terminated..."
+    print_ok "Action on signal terminated..."
     ## Do something before exit.
     sleep 2
     exit 0
 }
 
 function atcion_on_err() {
-    print_ok "Exit on err..."
+    print_ok "Action on err..."
     ## Do something before exit.
     #umount_on_exit
     sleep 2
@@ -34,7 +34,7 @@ function atcion_on_err() {
 }
 
 function atcion_on_exit() {
-    print_ok "Exit on exit..."
+    print_ok "Action on exit..."
     ## Do something before exit.
     sleep 2
     umount_on_exit
