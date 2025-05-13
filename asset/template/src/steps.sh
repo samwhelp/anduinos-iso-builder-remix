@@ -10,6 +10,53 @@ export SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 source $SCRIPT_DIR/shared.sh
 source $SCRIPT_DIR/args.sh
 
+function exit_on_signal_interrupted() {
+    print_ok "Exit on signal interrupted..."
+    ## Do something before exit.
+    #umount_on_exit
+    sleep 2
+    exit 0
+}
+
+function exit_on_signal_terminated() {
+    print_ok "Exit on signal terminated..."
+    ## Do something before exit.
+    sleep 2
+    exit 0
+}
+
+function exit_on_err() {
+    print_ok "Exit on err..."
+    ## Do something before exit.
+    #umount_on_exit
+    sleep 2
+    exit 0
+}
+
+function exit_on_exit() {
+    print_ok "Exit on exit..."
+    ## Do something before exit.
+    umount_on_exit
+    sleep 2
+    exit 0
+}
+
+function bind_signal() {
+    print_ok "Bind signal..."
+    trap exit_on_signal_interrupted SIGINT
+    trap exit_on_signal_terminated SIGTERM
+    trap exit_on_err ERR
+    trap exit_on_exit EXIT
+}
+
+function umount_on_exit() {
+    print_ok "Umount on exit..."
+    sudo umount new_building_os/dev || sudo umount -lf new_building_os/dev || true
+    sudo umount new_building_os/run || sudo umount -lf new_building_os/run || true
+    sudo umount new_building_os/proc || sudo umount -lf new_building_os/proc || true
+    sudo umount new_building_os/sys || sudo umount -lf new_building_os/sys || true
+}
+
 function check_host() {
 
     local os_ver
@@ -19,7 +66,7 @@ function check_host() {
         areYouSure
     fi
 
-	return 0
+    return 0
 
     if [ $(id -u) -eq 0 ]; then
         print_error "This script should not be run as 'root'"
@@ -377,6 +424,7 @@ EOF
 
 # =============   main  ================
 cd $SCRIPT_DIR
+bind_signal
 check_host
 clean
 setup_host
