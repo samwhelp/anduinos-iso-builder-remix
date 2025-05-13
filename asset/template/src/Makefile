@@ -46,3 +46,10 @@ log-build:
 ## make build 2>&1 | tee log.txt
 ## ```
 ##
+
+
+
+
+clean:
+	@./clean.sh
+.PHONY: clean

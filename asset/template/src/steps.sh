@@ -55,11 +55,12 @@ function bind_signal() {
 }
 
 function umount_on_exit() {
-    print_ok "Umount on exit..."
+    print_ok "Umount before exit..."
     sudo umount new_building_os/dev || sudo umount -lf new_building_os/dev || true
     sudo umount new_building_os/run || sudo umount -lf new_building_os/run || true
     sudo umount new_building_os/proc || sudo umount -lf new_building_os/proc || true
     sudo umount new_building_os/sys || sudo umount -lf new_building_os/sys || true
+    judge "Umount before exit"
 }
 
 function check_host() {
