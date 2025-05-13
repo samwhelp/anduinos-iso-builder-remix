@@ -10,7 +10,7 @@ export SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 source $SCRIPT_DIR/shared.sh
 source $SCRIPT_DIR/args.sh
 
-function exit_on_signal_interrupted() {
+function atcion_on_signal_interrupted() {
     print_ok "Exit on signal interrupted..."
     ## Do something before exit.
     #umount_on_exit
@@ -18,14 +18,14 @@ function exit_on_signal_interrupted() {
     exit 0
 }
 
-function exit_on_signal_terminated() {
+function atcion_on_signal_terminated() {
     print_ok "Exit on signal terminated..."
     ## Do something before exit.
     sleep 2
     exit 0
 }
 
-function exit_on_err() {
+function atcion_on_err() {
     print_ok "Exit on err..."
     ## Do something before exit.
     #umount_on_exit
@@ -33,7 +33,7 @@ function exit_on_err() {
     exit 0
 }
 
-function exit_on_exit() {
+function atcion_on_exit() {
     print_ok "Exit on exit..."
     ## Do something before exit.
     sleep 2
@@ -48,10 +48,10 @@ function bind_signal() {
     ## * `help trap`
     ##
     print_ok "Bind signal..."
-    trap exit_on_signal_interrupted SIGINT
-    trap exit_on_signal_terminated SIGTERM
-    trap exit_on_err ERR
-    trap exit_on_exit EXIT
+    trap atcion_on_signal_interrupted SIGINT
+    trap atcion_on_signal_terminated SIGTERM
+    trap atcion_on_err ERR
+    trap atcion_on_exit EXIT
 }
 
 function umount_on_exit() {
