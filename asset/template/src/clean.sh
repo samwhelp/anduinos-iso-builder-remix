@@ -44,6 +44,7 @@ function umount_before_clean() {
 function model_clean() {
     print_ok "Cleaning up..."
     umount_before_clean
+    print_ok "Clean..."
     sudo rm -rf ./new_building_os || true
     judge "Clean up rootfs"
     sudo rm -rf ./image || true
