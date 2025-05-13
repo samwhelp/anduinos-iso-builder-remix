@@ -36,12 +36,17 @@ function exit_on_err() {
 function exit_on_exit() {
     print_ok "Exit on exit..."
     ## Do something before exit.
+    sleep 2
     umount_on_exit
     sleep 2
     exit 0
 }
 
 function bind_signal() {
+    ##
+    ## * [man 1 bash](https://manpages.debian.org/stable/bash/bash.1.en.html)
+    ## * `help trap`
+    ##
     print_ok "Bind signal..."
     trap exit_on_signal_interrupted SIGINT
     trap exit_on_signal_terminated SIGTERM
