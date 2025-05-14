@@ -77,7 +77,7 @@ main_package_install () {
 	# sudo apt-get install -y --no-install-recommends $(main_package_find_list_raw)
 	# sudo apt-get install -y --no-install-recommends $(main_package_find_list)
 
-	sudo apt-get install -y --no-install-recommends $(main_package_find_list)
+	apt-get install -y --no-install-recommends $(main_package_find_list)
 }
 
 
