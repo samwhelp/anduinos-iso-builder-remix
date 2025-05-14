@@ -73,9 +73,9 @@ main_package_combine_list () {
 }
 
 main_package_install () {
-	# sudo apt-get install ${INTERACTIVE} --no-install-recommends $(cat package-list.txt)
-	# sudo apt-get install ${INTERACTIVE} --no-install-recommends $(main_package_find_list_raw)
-	# sudo apt-get install ${INTERACTIVE} --no-install-recommends $(main_package_find_list)
+	# sudo apt-get install -y --no-install-recommends $(cat package-list.txt)
+	# sudo apt-get install -y --no-install-recommends $(main_package_find_list_raw)
+	# sudo apt-get install -y --no-install-recommends $(main_package_find_list)
 
 	sudo apt-get install -y --no-install-recommends $(main_package_find_list)
 }
