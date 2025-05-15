@@ -9,7 +9,9 @@
 
 This project will depend on the [original project](https://github.com/Anduin2017/AnduinOS).
 
-The original project will continue to be developed and the architecture may change.
+The original project will continue to be developed,
+
+and the architecture may change.
 
 This item may expire and become inapplicable.
 
