@@ -128,7 +128,7 @@ make all
 ```
 
 
-> or fast
+> or bulid fast
 
 ``` sh
 make fast
