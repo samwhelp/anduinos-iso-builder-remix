@@ -5,6 +5,19 @@
 
 
 
+## Notice
+
+This project will depend on the [original project](https://github.com/Anduin2017/AnduinOS).
+
+The original project will continue to be developed and the architecture may change.
+
+This item may expire and become inapplicable.
+
+So you should fully understand it before using it.
+
+
+
+
 ## Home
 
 | Link | GitHub |
@@ -52,7 +65,7 @@
 ## Howto
 
 * [Combine](#combine)
-* [Build All](#build-all)
+* [How to Build](#how-to-build)
 * [Build Default](#build-default)
 
 
@@ -90,7 +103,7 @@ make combine-via-git
 
 
 
-### Build All
+### How to Build
 
 
 > change dir to `~/work/anduinos-iso-builder/iso-profile`
@@ -99,18 +112,24 @@ make combine-via-git
 cd ~/work/anduinos-iso-builder/iso-profile
 ```
 
+> show help
+
+``` sh
+make help
+```
+
 
 > bulid all
 
 ``` sh
-make build-all
+make all
 ```
 
 
-> or build fast
+> or fast
 
 ``` sh
-make build-fast
+make fast
 ```
 
 
