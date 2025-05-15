@@ -7,7 +7,7 @@
 
 ## Notice
 
-This project will depend on the [original project](https://github.com/Anduin2017/AnduinOS).
+This project will depend on the [original project](https://github.com/Anduin2017/AnduinOS/tree/1.3).
 
 The original project will continue to be developed,
 
