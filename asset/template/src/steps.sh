@@ -149,6 +149,7 @@ function mount_folers() {
     sudo cp -r $SCRIPT_DIR/mods new_building_os/root/mods
     sudo cp ./args.sh   new_building_os/root/mods/args.sh
     sudo cp ./shared.sh new_building_os/root/mods/shared.sh
+    sudo cp ./args-override.sh new_building_os/root/mods/args-override.sh
 }
 
 function run_chroot() {
