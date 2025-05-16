@@ -1,7 +1,5 @@
 
 
-
-
 ##
 ## # Font
 ##
@@ -10,13 +8,48 @@
 
 
 ##
-## ## Package / font
+## ## Package / Font / Ubuntu
+##
+
+fonts-ubuntu
+fonts-ubuntu-console
+
+
+
+
+##
+## ## Package / Font / Noto
+##
+
+fonts-noto-cjk
+fonts-noto-core
+fonts-noto-mono
+fonts-noto-color-emoji
+
+
+
+
+##
+## ## Package / Font / DejaVu
 ##
 
 fonts-dejavu
 
-fonts-noto-cjk
+
+
+
+##
+## ## Package / Font / Liberation
+##
 
 fonts-liberation2
+#fonts-liberation
+
+
+
+
+##
+## ## Package / Font / Jetbrains
+##
 
 #fonts-jetbrains-mono
