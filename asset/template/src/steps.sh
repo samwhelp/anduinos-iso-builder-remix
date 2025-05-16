@@ -9,13 +9,14 @@ set -u                  # treat unset variable as error
 export SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 source $SCRIPT_DIR/shared.sh
 source $SCRIPT_DIR/args.sh
-[ -f $SCRIPT_DIR/args-override.sh ] && . $SCRIPT_DIR/args-override.sh
+[ -f $SCRIPT_DIR/args-override.sh ] && source $SCRIPT_DIR/args-override.sh
 
 
 function atcion_on_signal_interrupted() {
     print_ok "Action on signal interrupted..."
     ## Do something before exit.
-    #umount_on_exit
+    sleep 2
+    umount_on_exit
     sleep 2
     exit 0
 }
@@ -30,7 +31,8 @@ function atcion_on_signal_terminated() {
 function atcion_on_err() {
     print_ok "Action on err..."
     ## Do something before exit.
-    #umount_on_exit
+    sleep 2
+    umount_on_exit
     sleep 2
     exit 0
 }
