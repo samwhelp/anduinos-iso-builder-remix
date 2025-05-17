@@ -35,6 +35,7 @@ So you should fully understand it before using it.
 ## Subject
 
 * [Source](#source)
+* [Module](#module)
 * [Remix](#remix)
 * [Howto](#howto)
 
@@ -44,8 +45,21 @@ So you should fully understand it before using it.
 ## Source
 
 | Source |
-| --- |
+| ------ |
 | GitHub / [AnduinOS](https://github.com/Anduin2017/AnduinOS)
+
+
+
+## Module
+
+| Main Module |
+| ----------- |
+| [14-my-extra-1010-package-mod](asset/template/src/mods/14-my-extra-1010-package-mod) |
+| [14-my-extra-1020-overlay-mod](asset/template/src/mods/14-my-extra-1020-overlay-mod) |
+| [35-dconf-patch](asset/template/src/mods/14-my-extra-1010-package-mod) |
+
+
+> discussions: [#51](https://github.com/Anduin2017/AnduinOS/discussions/51#discussioncomment-13087469)
 
 
 
@@ -60,6 +74,11 @@ So you should fully understand it before using it.
 | [AnduinOS / ISO Builder / Remix / Lxqt](https://samwhelp.github.io/anduinos-iso-builder-remix-lxqt/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-lxqt) |
 | [AnduinOS / ISO Builder / Remix / Mate](https://samwhelp.github.io/anduinos-iso-builder-remix-mate/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-mate) |
 | [AnduinOS / ISO Builder / Remix / Cinnamon](https://samwhelp.github.io/anduinos-iso-builder-remix-cinnamon/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon) |
+
+
+| Link | GitHub |
+| ---- | ------ |
+| [AnduinOS / ISO Builder / Remix / Mate with Compiz](https://samwhelp.github.io/anduinos-iso-builder-remix-mate-with-compiz/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-mate-with-compiz) |
 
 
 
