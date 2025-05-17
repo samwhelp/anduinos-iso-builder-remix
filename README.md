@@ -54,9 +54,9 @@ So you should fully understand it before using it.
 
 | Main Module |
 | ----------- |
-| [14-my-extra-1010-package-mod](asset/template/src/mods/14-my-extra-1010-package-mod) |
-| [14-my-extra-1020-overlay-mod](asset/template/src/mods/14-my-extra-1020-overlay-mod) |
-| [35-dconf-patch](asset/template/src/mods/14-my-extra-1010-package-mod) |
+| [14-my-extra-1010-package-mod](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) |
+| [14-my-extra-1020-overlay-mod](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod) |
+| [35-dconf-patch](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) |
 
 
 > discussions: [#51](https://github.com/Anduin2017/AnduinOS/discussions/51#discussioncomment-13087469)
