@@ -15,6 +15,7 @@
 ## Subject
 
 * [Source](#source)
+* [Module](#module)
 * [Remix](#remix)
 * [Howto](#howto)
 
@@ -24,8 +25,21 @@
 ## Source
 
 | Source |
-| --- |
+| ------ |
 | GitHub / [AnduinOS](https://github.com/Anduin2017/AnduinOS)
+
+
+
+## Module
+
+| Main Module |
+| ----------- |
+| [14-my-extra-1010-package-mod](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) |
+| [14-my-extra-1020-overlay-mod](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod) |
+| [35-dconf-patch](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) |
+
+
+> discussions: [#51](https://github.com/Anduin2017/AnduinOS/discussions/51#discussioncomment-13087469)
 
 
 
@@ -42,12 +56,17 @@
 | [AnduinOS / ISO Builder / Remix / Cinnamon](https://samwhelp.github.io/anduinos-iso-builder-remix-cinnamon/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-cinnamon) |
 
 
+| Link | GitHub |
+| ---- | ------ |
+| [AnduinOS / ISO Builder / Remix / Mate with Compiz](https://samwhelp.github.io/anduinos-iso-builder-remix-mate-with-compiz/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-mate-with-compiz) |
+
+
 
 
 ## Howto
 
 * [Combine](#combine)
-* [Build All](#build-all)
+* [How to Build](#how-to-build)
 * [Build Default](#build-default)
 
 
@@ -85,7 +104,7 @@ make combine-via-git
 
 
 
-### Build All
+### How to Build
 
 
 > change dir to `~/work/anduinos-iso-builder/iso-profile`
@@ -94,18 +113,24 @@ make combine-via-git
 cd ~/work/anduinos-iso-builder/iso-profile
 ```
 
+> show help
+
+``` sh
+make help
+```
+
 
 > bulid all
 
 ``` sh
-make build-all
+make all
 ```
 
 
-> or build fast
+> or bulid fast
 
 ``` sh
-make build-fast
+make fast
 ```
 
 
