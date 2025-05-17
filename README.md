@@ -52,14 +52,20 @@ So you should fully understand it before using it.
 
 ## Module
 
-| Main Module |
-| ----------- |
-| [14-my-extra-1010-package-mod](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) |
-| [14-my-extra-1020-overlay-mod](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod) |
-| [35-dconf-patch](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) |
+| Main Module | Purpose |
+| ----------- | ------- |
+| [14-my-extra-1010-package-mod](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) | [install package](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod/asset/package/install) |
+| [14-my-extra-1020-overlay-mod](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod) | [install file](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1020-overlay-mod/asset/overlay) |
+
+
+| Main Module | Purpose |
+| ----------- | ------- |
+| [35-dconf-patch](https://github.com/samwhelp/anduinos-iso-builder-remix/tree/main/asset/template/src/mods/14-my-extra-1010-package-mod) | Adjust Kebinding |
 
 
 > discussions: [#51](https://github.com/Anduin2017/AnduinOS/discussions/51#discussioncomment-13087469)
+
+> [Module / Adjusted](https://github.com/samwhelp/anduinos-iso-builder-remix/blob/main/helper/docs/module/module-adjusted.md)
 
 
 
