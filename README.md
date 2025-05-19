@@ -72,9 +72,12 @@ So you should fully understand it before using it.
 
 ## Remix
 
+> GitHub Search: [anduinos-iso-builder-remix](https://github.com/samwhelp?q=anduinos-iso-builder-remix&tab=repositories&type=&language=&sort=)
+
 | Link | GitHub |
 | ---- | ------ |
 | [AnduinOS / ISO Builder / Remix](https://samwhelp.github.io/anduinos-iso-builder-remix/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix) |
+| [AnduinOS / ISO Builder / Remix / Gnome Shell](https://samwhelp.github.io/anduinos-iso-builder-remix-gnome-shell/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-gnome-shell) |
 | [AnduinOS / ISO Builder / Remix / Kde Plasma](https://samwhelp.github.io/anduinos-iso-builder-remix-kde-plasma/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-kde-plasma) |
 | [AnduinOS / ISO Builder / Remix / Xfce](https://samwhelp.github.io/anduinos-iso-builder-remix-xfce/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-xfce) |
 | [AnduinOS / ISO Builder / Remix / Lxqt](https://samwhelp.github.io/anduinos-iso-builder-remix-lxqt/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-lxqt) |
@@ -86,6 +89,7 @@ So you should fully understand it before using it.
 | Link | GitHub |
 | ---- | ------ |
 | [AnduinOS / ISO Builder / Remix / Mate with Compiz](https://samwhelp.github.io/anduinos-iso-builder-remix-mate-with-compiz/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-mate-with-compiz) |
+| [AnduinOS / ISO Builder / Remix / Lxqt with Kwin](https://samwhelp.github.io/anduinos-iso-builder-remix-lxqt-with-kwin/) | [GitHub](https://github.com/samwhelp/anduinos-iso-builder-remix-lxqt-with-kwin) |
 
 
 
