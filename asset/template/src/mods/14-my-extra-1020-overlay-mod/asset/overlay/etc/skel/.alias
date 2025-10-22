@@ -39,19 +39,19 @@ alias l='ls -alh'	# all files and dirs, long format, human readable
 
 
 ################################################################################
-### Head: alias / neofetch
+### Head: alias / fastfetch
 ##
 
 
 ##
-## neofetch
+## fastfetch
 ##
 
-alias cls='clear && neofetch'
+alias cls='clear && fastfetch'
 
 
 ##
-### Tail: alias / neofetch
+### Tail: alias / fastfetch
 ################################################################################
 
 
