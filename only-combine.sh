@@ -24,7 +24,7 @@ REF_CMD_FILE_NAME="$(basename "$0")"
 
 REF_ISO_PROFILE_REPO_GIT_URL="https://github.com/Anduin2017/AnduinOS.git"
 
-REF_ISO_PROFILE_REPO_BRANCH_NAME="1.3"
+REF_ISO_PROFILE_REPO_BRANCH_NAME="1.4"
 
 #REF_ISO_PROFILE_REPO_ARCHIVE_URL="https://github.com/Anduin2017/AnduinOS/archive/refs/heads/${REF_ISO_PROFILE_REPO_BRANCH_NAME}.zip"
 REF_ISO_PROFILE_REPO_ARCHIVE_URL="https://github.com/Anduin2017/AnduinOS/archive/refs/heads/${REF_ISO_PROFILE_REPO_BRANCH_NAME}.tar.gz"
